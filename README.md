@@ -1,12 +1,13 @@
 ## Chormacraft image editing tool
 
+<pre>
 _________ .__                                _________                _____  __   
 \_   ___ \|  |_________  ____   _____ _____  \_   ___ \____________ _/ ____\/  |_ 
 /    \  \/|  |  \_  __ \/  _ \ /     \\__  \ /    \  \/\_  __ \__  \\   __\\   __\
 \     \___|   Y  \  | \(  <_> )  Y Y  \/ __ \\     \____|  | \// __ \|  |   |  |  
  \______  /___|  /__|   \____/|__|_|  (____  /\______  /|__|  (____  /__|   |__|  
         \/     \/                   \/     \/        \/            \/             
-
+</pre>
 
 This is a simple image manipulation tool that leverages the PIL (Python Imaging Library) module for various image editing operations. It provides a set of command-line options for adjusting various image properties. 
 
