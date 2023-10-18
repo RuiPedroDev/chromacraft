@@ -25,7 +25,7 @@ pip install Pillow
 ### Usage
 
 ```bash
-python script.py image_path [--bright B] [--cont C] [--sat S] [--sharp S] [--invert] [--rotate R] [--blur B] [--glamour G] [--sepia S]
+python chromacraft.py image_path [--bright B] [--cont C] [--sat S] [--sharp S] [--invert] [--rotate R] [--blur B] [--glamour G] [--sepia S]
 ```
 
 ### Arguments
@@ -46,17 +46,23 @@ python script.py image_path [--bright B] [--cont C] [--sat S] [--sharp S] [--inv
 Adjust brightness:
 
 ```bash
-python script.py image_path --bright 1.5
+python chromacraft.py image_path --bright 1.8
 ```
 
 Invert image color:
 
 ```bash
-python script.py image_path --invert
+python chormacraft.py image_path --invert
 ```
 
 Apply a sepia filter:
 
 ```bash
-python script.py image_path --sepia 0.6
+python chromacraft.py image_path --sepia 1.6
+```
+
+Adjust sharpness and saturation:
+
+```bash
+python chromacraft.py image_path --sat 1.8 --sharp 2.6
 ```
